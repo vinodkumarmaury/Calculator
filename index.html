@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <style>
+    #name{
+      text-align: center;
+      margin-top: 20px;
+      color: aliceblue;
+    }
+  </style>
+  <div>
+    <h1 id="name">Vinod Kumar Maurya</h1>
+  <div class="container">
+    <label for="display">Calculator Display:</label>
+    <input type="text" id="display" readonly>
+    <div class="main">
+      <div class="column">
+        <button id="clear" data-value="AC" class="box">AC</button>
+        <button id="one" data-value="1" class="box">1</button>
+        <button id="four" data-value="4" class="box">4</button>
+        <button id="seven" data-value="7" class="box">7</button>
+      </div>
+
+      <div class="column">
+        <button id="doubleoperator" data-value="+/-" class="box">+/-</button>
+        <button id="two" data-value="2" class="box">2</button>
+        <button id="five" data-value="5" class="box">5</button>
+        <button id="eight" data-value="8" class="box">8</button>
+      </div>
+
+      <div class="column">
+        <button id="percentage" data-value="CE" class="box">CE</button>
+        <button id="three" data-value="3" class="box">3</button>
+        <button id="six" data-value="6" class="box">6</button>
+        <button id="nine" data-value="9" class="box">9</button>
+      </div>
+
+      <div class="column">
+        <button id="division" data-value="/" class="rightBox box">/</button>
+        <button id="multiply" data-value="*" class="rightBox box">*</button>
+        <button id="add" data-value="+" class="rightBox box">+</button>
+        <button id="subtract" data-value="-" class="rightBox box">-</button>
+      </div>
+    </div>
+    
+    <div class="last-row">
+      <button id="zero" data-value="0" class="box">0</button>
+      <button id="dot" data-value="." class="box">.</button>
+      <button id="equal" data-value="=" class="box">=</button>
+    </div>
+  </div>
+</div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
